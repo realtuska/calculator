@@ -1,41 +1,38 @@
-section {  
-    color: black;
-    background-color: #b4d58b;
-    padding: 10px;
-    width: 40vw;
-    text-align:center;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:space-between;
+.calc {
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	max-width: 500px;
+	margin:0 auto;
 }
 
-section div{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:space-between;
-    margin:20px;
+.calc .display {
+	grid-column:1 / span 4;
+}
+.calc > * {
+    margin:5px
 }
 
 h1 {
     text-transform:uppercase;
     font-family:arial;
     text-align:center;
-    width: 40vw;
 }
 
 input{
     padding:30px;
     text-align: left;
     font-size:2em;
-    width:100%;
-    margin:20px;
 }
 button {
     color: black;
-    padding: 10px 20px;
-    max-height: 250px;
-    max-width: 250px;
+    padding: 10px 0;
     text-align: center;
     font-size:2em;
-    display:flex;
+}
+.clear {
+     background:linear-gradient(#ffe360, #ffc02a);
+}
+
+.eq {
+    background:linear-gradient(#b2ea6d, #8aba4e);
 }
