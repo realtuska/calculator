@@ -1,0 +1,41 @@
+section {  
+    color: black;
+    background-color: #b4d58b;
+    padding: 10px;
+    width: 40vw;
+    text-align:center;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+section div{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin:20px;
+}
+
+h1 {
+    text-transform:uppercase;
+    font-family:arial;
+    text-align:center;
+    width: 40vw;
+}
+
+input{
+    padding:30px;
+    text-align: left;
+    font-size:2em;
+    width:100%;
+    margin:20px;
+}
+button {
+    color: black;
+    padding: 10px 20px;
+    max-height: 250px;
+    max-width: 250px;
+    text-align: center;
+    font-size:2em;
+    display:flex;
+}
